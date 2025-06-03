@@ -105,10 +105,6 @@ class Particle {
     rotateZ(HALF_PI)
     image(star, 0, 0, this.size*5, this.size*5);
     pop();
-
-    push();
-    pointLight(255, 255, 255, this.pos.x, this.pos.y, this.pos.z)
-    pop();
   }
 }
 
